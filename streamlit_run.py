@@ -1,5 +1,6 @@
 # streamlit_app.py  (two-page flow)
 import streamlit as st
+st.write("App loaded!")
 from pydantic import BaseModel, ValidationError
 from typing import Optional
 
